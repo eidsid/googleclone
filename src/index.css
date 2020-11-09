@@ -1,0 +1,177 @@
+/*global*/
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*global!*/
+
+
+/*navbar*/
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    margin-left: 10px;
+}
+
+nav ul li a img {
+    height: 20px;
+    opacity: 0.6;
+}
+
+nav ul li a img:hover {
+    color: black;
+    opacity: 1;
+}
+
+nav ul li {
+    margin-top: 4vmin;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: rgba(0, 0, 0, 0.829);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+nav ul li:nth-child(1) a:hover,
+nav ul li:nth-child(2) a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+nav ul li .signin {
+    background-color: rgb(70, 103, 235);
+    color: white;
+    padding: 6px 15px;
+    margin-right: 1.5vmin;
+}
+
+
+/*navbar!*/
+
+
+/*main*/
+
+.container {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.container .googleimg {
+    width: 100%;
+}
+
+.container .input {
+    margin: 5vh 0vw;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 90vmin;
+}
+
+.container .input input {
+    padding-left: 7%;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: rgba(0, 0, 0, 0.459) 3px solid;
+    outline: none;
+    font-size: 20px;
+}
+
+.container .input i {
+    color: rgba(0, 0, 0, 0.459);
+    top: 35%;
+    left: 3%;
+    position: absolute;
+}
+
+.container .inputgroup button {
+    padding: 10px 17px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.0rem;
+    opacity: 0.7;
+}
+
+.container .inputgroup button:hover {
+    opacity: 1;
+    border: solid 2px rgba(0, 0, 0, 0.249);
+}
+
+.container h4 {
+    margin: 5vh;
+}
+
+
+/*main*/
+
+
+/*footer*/
+
+footer {
+    background-color: rgba(212, 212, 212, 0.446);
+    opacity: 0.5;
+}
+
+h3 {
+    padding: 1.5vmin;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+footer hr {
+    width: 100%;
+}
+
+.footernav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin: 1.2vmin;
+}
+
+footer ul li a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+/*footer!*/
